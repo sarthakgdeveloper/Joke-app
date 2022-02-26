@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  height: fit-content;
+  background-color: grey;
+  margin-bottom: 5rem;
+
+  .jokesOptionContainer {
+    max-height: 30vh;
+    height: fit-content;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+
+    div {
+      flex: auto;
+      min-width: 5rem;
+      width: 5rem;
+      max-width: 10rem;
+      text-align: center;
+      border: 1px solid #000;
+      border-radius: 5px;
+      padding: 0.5rem;
+      font-size: 0.75rem;
+      background-color: #f6f6f6;
+      cursor: pointer;
+    }
+  }
+}

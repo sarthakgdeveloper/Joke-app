@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  .selectedJoke {
+    width: 100%;
+
+    span {
+      color: #000;
+    }
+  }
+
+  .jokeContainer {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(0, 158, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    span {
+      color: #fff;
+      font-size: 1.2rem;
+    }
+  }
+
+  .newJoke {
+    color: rgb(0, 158, 236);
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
